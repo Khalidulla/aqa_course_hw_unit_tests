@@ -19,16 +19,14 @@ let item_6;
 let item_6_type;
 item_6 = 15;
 item_6_type = typeof(item_6)
-console.log("item_6 == ", item_6, "item_6_type == ", item_6_type);
+console.log("item_6 == ", typeof(item_6), "item_6_type == ", typeof(item_6_type));
 let item_7 = String(item_6);
 let item_7_type = typeof(item_7);
-console.log("item_7 == ", item_7, "item_7_type == ", item_7_type);
+console.log("item_7== ", typeof(item_7), "item_7_type == ", typeof(item_7_type));
 //Task 2
-let n = 5;
-
-let n1 = String(n);
-let n2 = n1 + n1;
-let n3 = n1 + n1 + n1;
-let result = Number(n1) + Number(n2) + Number(n3);
+const n = "5";
+const n2 = n + n;
+const n3 = n + n + n;
+const result = Number(n) + Number(n2) + Number(n3);
 
 console.log(result); 
